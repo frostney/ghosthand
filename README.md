@@ -26,11 +26,13 @@ Adding new articles (page or blog post)
 By default, all pages and posts can be found in `/site/articles`. (This can be changed in the global configuration if needs be.)
 
 Ghosthand mimics the filesystem structure as its routes:
+
 	about.md -> /about
 	folder/index.md -> /folder
 	folder/mypage.md -> /folder/mypage
 
 You can define metadata for each article by adding a JSON object between two metadata separators (`---`). This is an example:
+
 	---
 	{
 		"author": "Someone",
