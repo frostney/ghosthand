@@ -1,0 +1,19 @@
+<div class="post">
+	<h1>{{title}}</h1>
+	<p>Created by {{author}} {{created}}</p>
+
+	<div class="content">
+	{{{content}}}
+	</div>
+	
+	<div class="attachments">
+	{{#attachments}}
+		<div class="item">
+		{{name}}
+		{{type}}
+		{{file}}
+		</div>
+	{{/attachments}}
+	</div>
+	
+</div>

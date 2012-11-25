@@ -1,0 +1,16 @@
+{
+    "dateFormat": "dddd, MMMM Do YYYY, h:mm:ss a", 
+	"dateRouteFormat": "YYYY/MM/DD",
+    "dateFromNow": true, 
+    "defaultTemplate": "post", 
+    "directories": {
+        "articles": "articles", 
+        "common": "site", 
+        "layout": "layout"
+    }, 
+    "layout": "default", 
+    "metadataSeparator": "---", 
+    "port": 3000, 
+    "sessionSecret": "itsasecret",
+    "viewEngine": "hbs"
+}
