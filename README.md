@@ -18,7 +18,7 @@ Features
 * Support for different layouts
 * Support for LESS
 * Markdown support
-* Uses Handlebars templing engine
+* Uses Handlebars templating engine
 
 Adding new articles (page or blog post)
 ---------------------------------------
